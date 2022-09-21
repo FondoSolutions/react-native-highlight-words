@@ -6,7 +6,7 @@ import { TextPropTypes } from 'deprecated-react-native-prop-types';
 
 Highlighter.propTypes = {
   autoEscape: PropTypes.bool,
-  highlightStyle: Text.propTypes.style,
+  highlightStyle: TextPropTypes.style,
   searchWords: PropTypes.arrayOf(PropTypes.string).isRequired,
   textToHighlight: PropTypes.string.isRequired,
   sanitize: PropTypes.func,
